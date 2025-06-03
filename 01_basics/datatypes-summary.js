@@ -34,4 +34,22 @@ console.log(id === anotherId);
 const bigNumber = 120943718927461641829437128394714931873409164n
 
 
-const heroes = ["IronMan", "Batman"]
+const heroes = ["IronMan", "Batman", "Thor", "Hulk"];
+let myObj = {
+    name: "Ironman",
+    age: 25,
+}
+
+
+const myFunction = function () {
+    console.log("Hello World");
+};
+
+myFunction(); // 👉 This will print: Hello World
+
+
+console.log(typeof bigNumber)
+console.log(typeof outsideTemp);
+
+
+// function throw type of funciton only but its called object function. non premitive object type object
