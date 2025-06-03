@@ -24,5 +24,9 @@ Comparisons convert null to a number, treating it as 0. That's why (3) null >= 0
 // console.log(undefined > 0);
 // console.log(undefined == 0);
 // console.log(undefined >= 0);     // all three values will produce false result.
+// in most cases we avoid using these type of conversion undefined and null
 
 
+// ===      Strict Check
+
+console.log("2" === 2);
