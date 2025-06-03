@@ -78,7 +78,7 @@ console.log(gameCounter);
 ++gameCounter;
 
 // link for reference
-// https://tc39.es/ecma262/multipage/abstarct-operations.html#sec-type-conversion
+// https://tc39.es/ecma262/#sec-type-conversion
 
 // https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/Increment
 
