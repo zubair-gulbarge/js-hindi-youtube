@@ -53,3 +53,31 @@ console.log(typeof outsideTemp);
 
 
 // function throw type of funciton only but its called object function. non premitive object type object
+
+// *********************************************************************************************************
+
+
+// Stack (primitive), heap (non-primitive)
+
+let myYoutubename = "monkeydluffydotcom"
+
+let anotherName = myYoutubename
+
+anotherName = "zorodotcom"
+
+console.log(myYoutubename)
+
+console.log(anotherName)
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "nami@onepiece.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
